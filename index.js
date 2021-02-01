@@ -55,8 +55,8 @@ client.registry
 
 client.once('ready', () => {
   console.log(`${client.user.tag} is Ready!`);
-  client.user.setActivity(`${prefix}help in ${client.guilds.cache.size} servers!`, {
-    type: 'WATCHING',
+  client.user.setActivity(`to Undertale & Danganronpa vibes | ${prefix}help`, {
+    type: 'LISTENING',
     url: 'https://github.com/galnir/Master-Bot'
   });
   const Guilds = client.guilds.cache.map(guild => guild.name);
